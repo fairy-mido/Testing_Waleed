@@ -1,0 +1,30 @@
+Admin Or Boss can only create and add or remove branch of the bank.
+Users can access to their data if they have the permission and password is entered correctly :>
+
+Stack will be used in the application itself to undo and redo any action user entered or needed
+
+if all of the branches customer limit reached maximum, then user should give a request for a new branch to be created.
+
+
+Name
+Password
+Debit
+Credit
+
+Debit and Credit This is dependent on the procedures the client doing 
+
+
+Doing all work and scanf's in functions...
+Or Making arguments better to make a general code to manipulate whatever you want with the password and data..
+So that you don't need to type every single time 
+
+
+Implementing the stack with callbacks:
+1. create a function that returns a value 
+2. Argument of this function is the value entered or withdrawed
+
+1. Needed two functions 
+1.1 Deposit return positive number  int deposit(int val)
+1.2 Withdraw return negative number int withdraw(int val)
+
+2. In normal code, you will need to have arguement for these functions as you will scanf the number you need
